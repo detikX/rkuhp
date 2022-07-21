@@ -526,6 +526,9 @@ section {
     position: relative;
     border-radius: 16px 0 0 16px;
     box-shadow: 3px 0px 4px #fff;
+    @media screen and (max-width: 766px) {
+      height: 400px;
+    }
     img {
       width: 100%;
       border-radius: 16px 0 0 16px;
@@ -563,6 +566,9 @@ section {
     display: block;
     position: relative;
     perspective: 1500px;
+    @media screen and (max-width: 766px) {
+      height: 400px;
+    }
 
     // box-shadow: 3px 0px 4px #fff;
   }
