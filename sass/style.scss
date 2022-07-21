@@ -84,7 +84,7 @@ section {
   // padding: 0;
   z-index: 9;
   @media screen and (max-width: 766px) {
-    height: 33vh;
+    // height: 33vh;
   }
   &__bg {
     // opacity: 0.9;
@@ -367,6 +367,7 @@ section {
     text-align: left;
     @media screen and (max-width: 766px) {
       width: auto;
+      margin: 24px 12px;
     }
     h2 {
       font-size: 114px;
