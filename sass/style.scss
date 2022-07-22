@@ -907,6 +907,22 @@ section {
   &-softred {
     background: #f8d7d7 !important;
   }
+  &-blue {
+    background: #e3f2fd !important;
+  }
+  &-purple {
+    // background: #e1bee7 !important;
+    background: #e4cbe8 !important;
+  }
+  &-cyan {
+    background: #e0f7fa !important;
+  }
+  &-green {
+    background: #b9f6ca !important;
+  }
+  &-greyblue {
+    background: #cfd8dc !important;
+  }
 }
 
 .rkuhp {
@@ -914,6 +930,10 @@ section {
   display: block;
   text-align: center;
   padding: 64px;
+  @media screen and (max-width: $max) {
+    font-size: 24px;
+    text-align: left;
+  }
 }
 
 body {

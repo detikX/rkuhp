@@ -36,7 +36,7 @@
   {
     "id": 3,
     "judul": "Penghinaan Lembaga Negara",
-    "coloring": "bg-soft",
+    "coloring": "bg-cyan",
     "content": [
       {
         "pasal": "Pasal 351",
@@ -54,7 +54,7 @@
   {
     "id": 4,
     "judul": "Penghinaan terhadap Pengadilan",
-    "coloring": "bg-soft",
+    "coloring": "bg-greyblue",
     "content": [
       {
         "pasal": "Pasal 280",
@@ -67,7 +67,7 @@
   {
     "id": 5,
     "judul": "Demonstrasi",
-    "coloring": "bg-soft",
+    "coloring": "bg-purple",
     "content": [
       {
         "pasal": "Pasal 256",
