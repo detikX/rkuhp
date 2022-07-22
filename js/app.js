@@ -302,8 +302,8 @@ $.ajax({
       //     Info Lainnya
       //   </div>
       // `);
-      var test = id == 5 ? "hidden" : "";
-      var last = id == 5 ? "" : "hidden";
+      var test = id == 12 ? "hidden" : "";
+      var last = id == 12 ? "" : "hidden";
       $(".flip-book").append(`
         <div class="flip" id="p${id}">
           <div class="back">

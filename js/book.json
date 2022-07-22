@@ -74,7 +74,114 @@
         "text": "Setiap Orang yang tanpa pemberitahuan terlebih dahulu kepada yang berwenang mengadakan pawai, unjuk rasa, atau demonstrasi di jalan umum atau tempat umum yang mengakibatkan terganggunya kepentingan umum, menimbulkan keonaran, atau huru-hara dalam masyarakat dipidana dengan pidana penjara paling lama 6 (enam) Bulan atau pidana denda paling banyak kategori II."
       }
     ],
-    "image": "img/contoh4.webp",
+    "image": "https://cdn.law-justice.co/posts/1/2019/2019-03-25/21771db269811ca1ad87e3264d8535c1_1.jpg",
     "modal": "Pasal ini berpotensi digunakan untuk membungkam kebebasan berpendapat."
+  },
+  {
+    "id": 6,
+    "judul": "Hukum yang Hidup di Masyarakat",
+    "coloring": "bg-green",
+    "content": [
+      {
+        "pasal": "Pasal 2 ayat 1",
+        "text": "Ketentuan sebagaimana dimaksud dalam Pasal 1 ayat (1) tidak mengurangi berlakunya hukum yang hidup dalam masyarakat yang menentukan bahwa seseorang patut dipidana walaupun perbuatan tersebut tidak diatur dalam peraturan perundang-undangan."
+      },
+      {
+        "pasal": "Pasal 601",
+        "text": "Orang, yang melakukan perbuatan menurut hukum yang hidup dalam masyarakat dinyatakan sebagai perbuatan yang dilarang, diancam dengan pidana."
+      }
+    ],
+    "image": "https://static.republika.co.id/uploads/images/inpicture_slide/penodaan-agama-ilustrasi-_150205105214-845.jpg",
+    "modal": "Kedua pasal ini mengatur tentang hukum yang hidup di masyarakat. Dalam kata lain, masyarakat bisa dipidana bila melanggar hukum yang berlaku di suatu daerah. Pasal ini berpotensi memunculkan sikap kesewenang-wenangan dan peraturan daerah yang diskriminatif."
+  },
+  {
+    "id": 7,
+    "judul": "Penodaan Agama",
+    "coloring": "bg-soft",
+    "content": [
+      {
+        "pasal": "Pasal 304",
+        "text": "Setiap Orang di muka umum yang menyatakan perasaan atau melakukan perbuatan yang bersifat permusuhan atau penodaan terhadap agama yang dianut di Indonesia dipidana dengan pidana penjara paling lama 5 (lima) tahun atau pidana denda paling banyak kategori V."
+      }
+    ],
+    "image": "https://asset.kompas.com/crops/_FMYiLEiZ0YxZIloPNgLhX8tyZA=/0x0:780x390/750x500/data/photo/2017/03/06/1619346Untitled-2780x390.jpg",
+    "modal": "Pasal ini berpotensi memicu penyerangan terhadap minoritas agama tertentu. Sebab, delik penodaan agama ini tidak berorientasi pada perlindungan kebebasan beragama bagi individu untuk melaksanakan kepercayaannya."
+  },
+  {
+    "id": 8,
+    "judul": "Aborsi",
+    "coloring": "bg-softred",
+    "content": [
+      {
+        "pasal": "Pasal 467 ayat 1",
+        "text": "Setiap perempuan yang melakukan aborsi dipidana dengan pidana penjara paling lama 4 (empat) tahun."
+      },
+      {
+        "pasal": "Pasal 468 ayat 1",
+        "text": "Setiap Orang yang melakukan aborsi terhadap seorang perempuan: a. dengan persetujuan perempuan tersebut dipidana dengan pidana penjara paling lama 5 (lima) tahun; atau b. tanpa persetujuan perempuan tersebut dipidana dengan pidana penjara paling lama 12 (dua belas) tahun."
+      }
+    ],
+    "image": "https://awsimages.detik.net.id/community/media/visual/2019/06/03/911583a6-f517-4c7b-a804-260015f06222.jpeg?w=700&q=90",
+    "modal": "Aturan tentang aborsi juga diatur dalam pasal 469. Aturan ini dinilai bertabrakan dengan UU Kesehatan dan UU Perlindungan Anak sehingga dikhawatirkan bakal menimbulkan ketidakpastian hukum di masyarakat."
+  },
+  {
+    "id": 9,
+    "judul": "Gelandangan",
+    "coloring": "bg-softred",
+    "content": [
+      {
+        "pasal": "Pasal 429",
+        "text": "Setiap Orang yang bergelandangan di jalan atau di tempat umum yang mengganggu ketertiban umum dipidana dengan pidana denda paling banyak kategori I."
+      }
+    ],
+    "image": "https://media.suara.com/pictures/653x366/2021/04/09/62427-pasangan-belum-menikah-kepergok-kumpul-kebo-di-sebuah-rumah-indekos-kota-blitar.jpg",
+    "modal": "Ini bertentangan dengan Pasal 34 ayat 1 UUD 1945 di mana seharusnya negara memelihara para fakir miskin dan anak terlantar."
+  },
+  {
+    "id": 10,
+    "judul": "Kumpul Kebo",
+    "coloring": "bg-softred",
+    "content": [
+      {
+        "pasal": "Pasal 416",
+        "text": "Setiap Orang yang melakukan hidup bersama sebagai suami istri di luar perkawinan dipidana dengan pidana penjara paling lama 6 (enam) Bulan atau pidana denda paling banyak kategori II."
+      }
+    ],
+    "image": "https://cdn0-production-images-kly.akamaized.net/8PYv8iooAwI1fxnc3HbPxeRYpHk=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3245253/original/071352200_1600755982-20200922-Ternak-Ayam-Potong-ARBAS-4.jpg",
+    "modal": "Pasal ini berpotensi mengkriminalisasi orang-orang yang sudah menikah tapi belum tercatat oleh negara."
+  },
+  {
+    "id": 12,
+    "judul": "Pidana Mati",
+    "coloring": "bg-softred",
+    "content": [
+      {
+        "pasal": "Pasal 67",
+        "text": "Pidana yang bersifat khusus sebagaimana dimaksud dalam Pasal 64 huruf c merupakan pidana mati yang selalu diancamkan secara alternatif."
+      },
+      {
+        "pasal": "Pasal 98",
+        "text": "Pidana mati diancamkan secara alternatif sebagai upaya terakhir untuk mencegah dilakukannya tindak pidana dan mengayomi masyarakat."
+      }
+    ],
+    "image": "https://cdn0-production-images-kly.akamaized.net/8PYv8iooAwI1fxnc3HbPxeRYpHk=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3245253/original/071352200_1600755982-20200922-Ternak-Ayam-Potong-ARBAS-4.jpg",
+    "modal": "Aturan terkait pidana mati juga tertuang dalam Pasal 99, 100, 101, dan 102. Pasal-pasal ini dianggap kontroversial karena bertentangan dengan hak asasi manusia. Institute for Criminal Justice Reform (ICJR) menilai, pasal-pasal ini mestinya sudah dihapuskan. Indonesia, menurut ICJR, seharusnya sudah mengikuti peradaban di negara lain yang telah menghapus pidana tersebut."
+  },
+  {
+    "id": 11,
+    "judul": "Hewan Ternak dan Unggas",
+    "coloring": "bg-softred",
+    "content": [
+      {
+        "pasal": "Pasal 277",
+        "text": "Setiap Orang yang membiarkan unggas yang diternaknya berjalan di kebun atau tanah yang telah ditaburi benih atau tanaman milik orang lain yang menimbulkan kerugian dipidana dengan pidana denda paling banyak kategori II."
+      },
+      {
+        "pasal": "Pasal 278 ayat 1 dan 2",
+        "text": "(1) Setiap Orang yang membiarkan Ternaknya berjalan di kebun, tanah perumputan, tanah yang ditaburi benih atau penanaman, atau tanah yang disiapkan untuk ditaburi benih atau ditanami dipidana dengan pidana denda paling banyak kategori II. (2) Ternak sebagaimana dimaksud pada ayat (1) dapat dirampas untuk negara."
+      }
+    ],
+    "image": "https://media.beritagar.id/2016-07/73fdccdc96606eef86b3a0f47f93a992.jpg",
+    "modal": "Aturan terkait hewan ternak juga diatur dalam Pasal 279. Pasal-pasal ini berpotensi digunakan sebagian kalangan untuk mengkriminalisasi orang lain dengan dalih-dalih yang tidak masuk akal dan sulit dibuktikan."
   }
 ]
