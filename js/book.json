@@ -127,7 +127,7 @@
   {
     "id": 9,
     "judul": "Gelandangan",
-    "coloring": "bg-softred",
+    "coloring": "bg-blue",
     "content": [
       {
         "pasal": "Pasal 429",
@@ -140,7 +140,7 @@
   {
     "id": 10,
     "judul": "Kumpul Kebo",
-    "coloring": "bg-softred",
+    "coloring": "bg-cyan",
     "content": [
       {
         "pasal": "Pasal 416",
@@ -153,7 +153,7 @@
   {
     "id": 12,
     "judul": "Pidana Mati",
-    "coloring": "bg-softred",
+    "coloring": "bg-purple",
     "content": [
       {
         "pasal": "Pasal 67",

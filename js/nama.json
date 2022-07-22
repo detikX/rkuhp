@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nama": "Akbar Alamsyah",
+    "usia": 19,
+    "asal": "Jakarta",
+    "modal": "Akbar Alamsyah ditemukan oleh polisi terkapar di sebuah trotoar jalan sekitar kawasan Slipi, Jakarta Barat sekitar pukul 01.30 WIB pada 26 September 2019. Dia dilarikan ke RS Pelni. Ibunda Akbar, Rosminah mengatakan, kondisi akbar sudah tidak sadarkan diri. Wajah dan matanya penuh lebam serta tulang kepalanya patah. Usai menjalani perawatan intensif selama 10 hari, Akbar pergi untuk selamanya."
+  },
+  {
+    "id": 2,
+    "nama": "Maulana Suryadi",
+    "usia": 23,
+    "asal": "Jakarta",
+    "modal": "Maulana Suryadi dikabarkan meninggal dunia sekitar pukul 05.59 WIB pada 26 September 2019. Aldo, sahabat Maulana, sempat bercerita bahwa dia dan Maulana digelandang polisi saat hendak mengikuti demo di wilayah Slipi, Jakarta Barat. Mereka diseret masuk ke dalam mobil dan dipaksa duduk bersesak-sesakan dengan pendemo lainnya. Polisi mengklaim, Maulana meninggal akibat kehabisan napas lantaran asmanya kambuh. Namun pihak keluarga tidak percaya lantaran menemukan banyak kejanggalan di jasad Maulana. Terdapat luka lebam di sekujur tubuh Maulana serta pendarahan dari bagian hidung dan telinga yang terus membahasi kain kafannya saat hendak dimakamkan."
+  },
+  {
+    "id": 3,
+    "nama": "Bagus Putra Mahendra",
+    "usia": 15,
+    "asal": "Jakarta",
+    "modal": "Bagus Putra Mahendra memang berencana datang ke Gedung DPR/MPR untuk ikut berdemo menolak pengesahan RKUHP. Namun sayangnya, dia tidak pernah sampai ke Gedung DPR/MPR sebagaimana sejawatnya yang lain. Siswa kelas XI SMA Aljihad, Jakarta Utara ini meregang nyawa usai tertabrak truk trailer di Jalan RN Martadinata sekitar pukul 16.30 WIB pada 26 September 2019. Dugaan menyeruak bahwa Bagus tertabrak lantaran dikejar polisi yang tengah menghalang-halangi pelajar merapat ke Gedung DPR/MPR. Namun, polisi membantah klaim tersebut dengan mengatakan bahwa penyebab meninggalnya Bagus adalah murni kecelakaan."
+  },
+  {
+    "id": 4,
+    "nama": "La Randy",
+    "usia": 21,
+    "asal": "Kendari",
+    "modal": "Mahasiswa Hulu Olea, Kendari ini tewas usai aksi demonstrasi mahasiswa yang berujung ricuh di depan Gedung DPRD Sulawesi Tenggara pada Kamis, 26 September 2019. Klaim dari pihak kepolisian, Randy meninggal sekitar pukul 15.44 waktu setempat. Dokter di Rumah Sakit Dr Ismoyo yang sempat menangani Randy menyebut, bahwa dia meninggal lantaran luka tembak di dada yang menembus sedalam 10 sentimeter dengan lebar 5 sentimeter."
+  },
+  {
+    "id": 5,
+    "nama": "Muh Yusuf Kardawi",
+    "usia": 19,
+    "asal": "Kendari",
+    "modal": "Seorang saksi yang diwawancarai Komisi untuk Orang Hilang dan Korban Tindak Kekerasaan (KontraS) menyebut, Yusuf Kardawi sempat terjatuh dan dipukuli aparat saat berdemo di Gedung DPRD Sulawesi Tenggara pada 26 September 2019. Saat dalam posisi tidak berdaya itulah, Yusuf diduga ditembak oleh seorang polisi berpakaian preman. Aksi brutal itu terjadi di sekitar Jalan Drs. H. Abdullah Silondae tepat di pintu samping kantor Dinas Ketenagakerjaan Sulawesi Tenggara."
+  }
+]

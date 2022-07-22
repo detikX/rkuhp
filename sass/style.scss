@@ -937,6 +937,16 @@ section {
 }
 
 body {
+  .first_ {
+    background: radial-gradient(
+      circle at 10% 20%,
+      rgb(39, 40, 41) 0%,
+      #29323c
+    ) !important;
+    // background: linear-gradient(to bottom, #fff, #ececec) !important;
+    // background: $primary !important;
+    box-shadow: none !important;
+  }
   .modal-content {
     background-color: #000000;
     background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
@@ -947,9 +957,40 @@ body {
     }
   }
   .modal {
+    &-dialog {
+      @media screen and (max-width: 766px) {
+        margin: 30% 0.5rem;
+      }
+    }
     .close {
       i {
         color: white;
+      }
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+.nama-nama {
+  li {
+    // border: 1px solid;
+    width: fit-content;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      color: #fff;
+    }
+    .btn {
+      // float: right;
+      position: absolute;
+      right: 0;
+      top: 0;
+
+      &:focus {
+        box-shadow: none;
       }
     }
   }

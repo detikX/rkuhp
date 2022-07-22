@@ -272,6 +272,39 @@ btns.forEach((btn) => {
 // }
 
 $.ajax({
+  url: "js/nama.json",
+  type: "GET",
+  success: (response) => {
+    console.log(response);
+    var a;
+    for (a = 0; a < response.length; a++) {
+      var name = response[a].nama;
+      var asal = response[a].asal;
+      var usia = response[a].usia;
+      var id_ = response[a].id;
+      $(".nama-nama").append(`
+      <li class="namasiswa" data-toggle="modal" data-target="#modalSiswa" data-id="${id_}" >
+      ${name} (${usia} Tahun, ${asal})
+      </li>
+      `);
+    }
+    $(".namasiswa[data-target='#modalSiswa']").on("click", function (i, x) {
+      var dataID = $(this).attr("data-id") - 1;
+      console.log(dataID);
+      console.log(response[dataID].modal);
+      var modal = response[dataID].modal;
+      $("#modalSiswa").modal("show");
+
+      $("#modalSiswa .modal-content").html(`
+            <div class="modal-body">
+                <p class="font-stdbig">${modal}</p>
+            </div>
+        `);
+    });
+  },
+});
+
+$.ajax({
   url: "js/book.json",
   type: "GET",
   success: (response) => {
@@ -289,19 +322,6 @@ $.ajax({
         h += `<li><b>${a.pasal}:</b> ${a.text}</li>`;
       });
 
-      // $(".dedi").append(`
-      //   <h2>${judul}</h2>
-      //   <ul>${h}</ul>
-      //   <img src="${image}" style="width:100%"/>
-      //   <div
-      //     class="btn-modal books"
-      //     data-toggle="modal"
-      //     data-id="${id}"
-      //     data-target="#modalDetail"
-      //   >
-      //     Info Lainnya
-      //   </div>
-      // `);
       var test = id == 12 ? "hidden" : "";
       var last = id == 12 ? "" : "hidden";
       $(".flip-book").append(`
@@ -348,50 +368,6 @@ $.ajax({
             </div>
         `);
     });
-
-    // var h = "";
-    // benefit.map((a, i) => {
-    //   h += `<li><b>${a.pasal}</b>${a.text}</li>`;
-    // });
-
-    /*$(".flip-book").append(`
-    <div class="flip" id="p1">
-      <div class="back">
-        <img src="${image}" alt="" />
-        <label for="c${id}" class="back-btn">Before</label>
-      </div>
-      <div class="front">
-        <div class="front__title">
-          <h2>${judul}</h2>
-        </div>
-
-        <ul>
-          <li>
-            <b>Pasal 218:</b> Setiap orang yang di muka umum
-            menyerang kehormatan atau harkat dan martabat diri
-            Presiden atau Wakil Presiden dipidana dengan pidana
-            penjara paling lama 3 tahun 6 bulan atau pidana denda
-            paling banyak kategori IV.
-          </li>
-          <li>
-            <b>Pasal 219:</b> Setiap orang yang menyiarkan,
-            mempertunjukkan, atau menempelkan tulisan atau gambar
-            sehingga terlihat oleh umum, memperdengarkan rekaman
-            sehingga terdengar oleh umum, atau menyebarluaskan
-            dengan sarana teknologi informasi yang berisi
-            penyerangan kehormatan atau harkat dan martabat
-            terhadap Presiden atau Wakil Presiden dengan maksud
-            agar isinya diketahui atau lebih diketahui umum
-            dipidana dengan pidana penjara paling lama (empat)
-            tahun 6 (enam) bulan atau pidana denda paling banyak
-            kategori IV.
-          </li>
-        </ul>
-
-        <label for="c1" class="next-btn">NEXT</label>
-      </div>
-    </div>
-    `);*/
   },
 });
 
