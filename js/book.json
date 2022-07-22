@@ -150,23 +150,7 @@
     "image": "https://cdn0-production-images-kly.akamaized.net/8PYv8iooAwI1fxnc3HbPxeRYpHk=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3245253/original/071352200_1600755982-20200922-Ternak-Ayam-Potong-ARBAS-4.jpg",
     "modal": "Pasal ini berpotensi mengkriminalisasi orang-orang yang sudah menikah tapi belum tercatat oleh negara."
   },
-  {
-    "id": 12,
-    "judul": "Pidana Mati",
-    "coloring": "bg-purple",
-    "content": [
-      {
-        "pasal": "Pasal 67",
-        "text": "Pidana yang bersifat khusus sebagaimana dimaksud dalam Pasal 64 huruf c merupakan pidana mati yang selalu diancamkan secara alternatif."
-      },
-      {
-        "pasal": "Pasal 98",
-        "text": "Pidana mati diancamkan secara alternatif sebagai upaya terakhir untuk mencegah dilakukannya tindak pidana dan mengayomi masyarakat."
-      }
-    ],
-    "image": "https://cdn0-production-images-kly.akamaized.net/8PYv8iooAwI1fxnc3HbPxeRYpHk=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3245253/original/071352200_1600755982-20200922-Ternak-Ayam-Potong-ARBAS-4.jpg",
-    "modal": "Aturan terkait pidana mati juga tertuang dalam Pasal 99, 100, 101, dan 102. Pasal-pasal ini dianggap kontroversial karena bertentangan dengan hak asasi manusia. Institute for Criminal Justice Reform (ICJR) menilai, pasal-pasal ini mestinya sudah dihapuskan. Indonesia, menurut ICJR, seharusnya sudah mengikuti peradaban di negara lain yang telah menghapus pidana tersebut."
-  },
+
   {
     "id": 11,
     "judul": "Hewan Ternak dan Unggas",
@@ -183,5 +167,22 @@
     ],
     "image": "https://media.beritagar.id/2016-07/73fdccdc96606eef86b3a0f47f93a992.jpg",
     "modal": "Aturan terkait hewan ternak juga diatur dalam Pasal 279. Pasal-pasal ini berpotensi digunakan sebagian kalangan untuk mengkriminalisasi orang lain dengan dalih-dalih yang tidak masuk akal dan sulit dibuktikan."
+  },
+  {
+    "id": 12,
+    "judul": "Pidana Mati",
+    "coloring": "bg-purple",
+    "content": [
+      {
+        "pasal": "Pasal 67",
+        "text": "Pidana yang bersifat khusus sebagaimana dimaksud dalam Pasal 64 huruf c merupakan pidana mati yang selalu diancamkan secara alternatif."
+      },
+      {
+        "pasal": "Pasal 98",
+        "text": "Pidana mati diancamkan secara alternatif sebagai upaya terakhir untuk mencegah dilakukannya tindak pidana dan mengayomi masyarakat."
+      }
+    ],
+    "image": "https://cdn0-production-images-kly.akamaized.net/8PYv8iooAwI1fxnc3HbPxeRYpHk=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3245253/original/071352200_1600755982-20200922-Ternak-Ayam-Potong-ARBAS-4.jpg",
+    "modal": "Aturan terkait pidana mati juga tertuang dalam Pasal 99, 100, 101, dan 102. Pasal-pasal ini dianggap kontroversial karena bertentangan dengan hak asasi manusia. Institute for Criminal Justice Reform (ICJR) menilai, pasal-pasal ini mestinya sudah dihapuskan. Indonesia, menurut ICJR, seharusnya sudah mengikuti peradaban di negara lain yang telah menghapus pidana tersebut."
   }
 ]
