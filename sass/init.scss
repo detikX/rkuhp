@@ -285,9 +285,12 @@ main {
 
 .close {
   position: absolute;
-  top: 8px;
+  bottom: 8px;
   right: 8px;
   cursor: pointer;
+  color: #fff;
+  text-shadow: none;
+  opacity: 1;
 }
 
 .source {
