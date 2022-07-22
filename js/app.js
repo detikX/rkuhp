@@ -274,6 +274,14 @@ btns.forEach((btn) => {
 $.ajax({
   url: "js/nama.json",
   type: "GET",
+  beforeSend: function () {
+    $(".loader_ajax").show();
+    // $(".thumbs").hide();
+  },
+  complete: function () {
+    $(".loader_ajax").hide();
+    // $(".thumbs").show();
+  },
   success: (response) => {
     console.log(response);
     var a;
@@ -282,7 +290,7 @@ $.ajax({
       var asal = response[a].asal;
       var usia = response[a].usia;
       var id_ = response[a].id;
-      $(".nama-nama").append(`
+      $(".nama-nama ul").append(`
       <li class="namasiswa" data-toggle="modal" data-target="#modalSiswa" data-id="${id_}" >
       ${name} (${usia} Tahun, ${asal})
       </li>
