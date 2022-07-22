@@ -937,6 +937,9 @@ section {
 }
 
 body {
+  .modal-backdrop.show {
+    opacity: 0.8 !important;
+  }
   .first_ {
     background: radial-gradient(
       circle at 10% 20%,
