@@ -529,6 +529,9 @@ section {
     position: relative;
     border-radius: 16px 0 0 16px;
     box-shadow: 3px 0px 4px #fff;
+    .btn-modal {
+      z-index: 0;
+    }
     @media screen and (max-width: 766px) {
       height: 400px;
     }
