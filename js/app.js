@@ -336,7 +336,7 @@ $.ajax({
         <div class="flip" id="p${id}">
           <div class="back">
             <h2 class="rkuhp ${last}">Draf RKUHP</h2>
-            <img src="${image}" class="${test}" alt="" />
+            <img src="${image}" class="${test}" alt="${judul}" title="${judul}" loading="lazy" />
             <div
               class="btn-modal books ${test}"
               data-toggle="modal"

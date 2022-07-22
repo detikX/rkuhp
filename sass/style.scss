@@ -542,6 +542,7 @@ section {
   .btn-modal {
     position: absolute;
     bottom: 56px;
+    z-index: 70;
     // left: 50%;
     right: 8px;
     background: $primary;
@@ -660,6 +661,17 @@ section {
     transform: rotateY(180deg);
     backface-visibility: hidden;
     background-color: #000;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0px;
+      z-index: 1;
+      right: 0;
+      left: 0;
+      height: 150px;
+      background: linear-gradient(to top, black, transparent);
+      border-radius: 0 0 0 16px;
+    }
     img {
       width: 100%;
       height: 100%;
@@ -697,6 +709,7 @@ section {
     right: 13px;
     cursor: pointer;
     color: #fff;
+    z-index: 20;
     @media screen and (max-width: 766px) {
       bottom: -10px;
       right: 13px;
