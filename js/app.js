@@ -348,6 +348,7 @@ $.ajax({
             <label for="c${id}" class="back-btn"><i class="fa fa-angle-double-left" aria-hidden="true"></i><div>Kembali</div></label>
           </div>
           <div class="front ${color}">
+            <div class="help-front"><img src="img/palu-help.png" alt="palu" title="palu"/></div>
             <div class="front__title ${color}">
               <h2>${judul}</h2>
             </div>
