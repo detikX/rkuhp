@@ -290,10 +290,25 @@ $.ajax({
       var asal = response[a].asal;
       var usia = response[a].usia;
       var id_ = response[a].id;
-      $(".nama-nama ul").append(`
+      /*$(".nama-nama ul").append(`
       <li class="namasiswa" data-toggle="modal" data-target="#modalSiswa" data-id="${id_}" >
       ${name} (${usia} Tahun, ${asal})
       </li>
+      `);*/
+      $(".nama-nama").append(`
+        <div class="card_">
+          <div class="card__image">
+            <img src="img/icon-student.png" alt="" title="" />
+          </div>
+          <div class="card__content namasiswa" data-toggle="modal" data-target="#modalSiswa" data-id="${id_}">
+            <div class="name"><b>${name}</b></div>
+            <div class="age">${usia} Tahun</div>
+            <div class="from">${asal}</div>
+            <div class="mt-2">
+              <button class="btn-name">Selengkapnya</button>
+            </div>
+          </div>
+        </div>
       `);
     }
     $(".namasiswa[data-target='#modalSiswa']").on("click", function (i, x) {
@@ -357,8 +372,10 @@ $.ajax({
           </div>
           <div class="front ${color}">
             <div class="help-front"><img src="img/palu-help.png" alt="palu" title="palu"/></div>
+            <div class="help-front2"><img src="img/kertas.webp" alt="palu" title="palu"/></div>
             <div class="front__title ${color}">
               <h2>${judul}</h2>
+              <div class="help-front2"><img src="img/kertas.webp" alt="palu" title="palu"/></div>
             </div>
 
             <ul>

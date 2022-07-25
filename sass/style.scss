@@ -146,6 +146,10 @@ section {
   }
 }
 
+.color-primary {
+  color: #b7b7b7;
+}
+
 .credit {
   border-top: 2px solid;
   // background: #c3c4c5;
@@ -372,11 +376,12 @@ section {
       margin: 24px 12px;
     }
     h2 {
-      font-size: 114px;
+      font-size: 42px;
       margin: 0;
       position: absolute;
       opacity: 0.2;
-      top: 50px;
+      top: 30px;
+      font-weight: bold;
       right: 10px;
       transition: all 0.3s ease-in-out;
     }
@@ -423,11 +428,11 @@ section {
     }
     &:hover {
       button {
-        transform: translateY(5px);
+        transform: translateY(3px);
         opacity: 1;
       }
       h2 {
-        top: 0px;
+        top: 16px;
         opacity: 0.6;
       }
     }
@@ -604,6 +609,7 @@ section {
     width: 100%;
     height: 100%;
     top: 0;
+    border-radius: 16px;
     // box-shadow: 3px 0px 4px #fff;
     left: 0;
     background-color: #fafafa;
@@ -617,7 +623,7 @@ section {
       left: 0px;
       width: 200px;
       height: auto;
-      z-index: 2;
+      z-index: 4;
       opacity: 0.2;
       @media screen and (max-width: $max) {
         width: auto;
@@ -626,6 +632,28 @@ section {
         width: 100%;
         height: 100%;
         object-fit: contain;
+      }
+    }
+    .help-front2 {
+      position: fixed;
+      bottom: 0px;
+      border-radius: 0 16px 16px 0;
+      left: 0px;
+      // width: 200px;
+
+      right: 0;
+      top: 0;
+      height: auto;
+      z-index: 2;
+      opacity: 0.8;
+      @media screen and (max-width: $max) {
+        width: auto;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0 16px 16px 0;
+        object-fit: cover;
       }
     }
     &__title {
@@ -645,6 +673,8 @@ section {
       h2 {
         font-size: 24px;
         font-weight: 700;
+        position: relative;
+        z-index: 9;
         @media screen and (max-width: $max) {
           font-size: 19px;
         }
@@ -654,7 +684,7 @@ section {
       margin: 80px 0 0;
       padding: 0 16px;
       position: relative;
-      z-index: 10;
+      z-index: 40;
       @media screen and (max-width: 766px) {
         margin: 90px 0 0;
         padding: 0 8px;
@@ -1014,6 +1044,48 @@ body {
 }
 
 .nama-nama {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 60;
+  // text-align: center;
+  .card_ {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    padding: 4px 0;
+    background: linear-gradient(to left, #3e5151, #decba4);
+    height: auto;
+    box-shadow: 0 3px 6px #000;
+    cursor: pointer;
+    margin: 8px;
+    border-radius: 8px;
+    transition: 1s;
+    @media screen and (max-width: 766px) {
+      width: auto;
+    }
+    &:hover {
+      background: linear-gradient(to left, #9997a1, #e2d7c0);
+    }
+    &_image {
+      display: inline-block;
+      width: 40%;
+      height: 100%;
+      vertical-align: middle;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    &_content {
+      width: 55%;
+      display: inline-block;
+      height: auto;
+      color: black;
+      vertical-align: middle;
+    }
+  }
   li {
     // border: 1px solid;
     width: fit-content;
@@ -1033,6 +1105,21 @@ body {
         box-shadow: none;
       }
     }
+  }
+}
+
+.btn-name {
+  background: $primary;
+  color: #fafafa;
+  // padding: 8px;
+  border-radius: 8px;
+  border-color: transparent;
+  padding: 4px;
+  transition: 0.3s;
+  &:hover,
+  &:active,
+  &:focus {
+    background: rgba($color: $primary, $alpha: 0.8);
   }
 }
 
