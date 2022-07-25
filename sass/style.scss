@@ -119,6 +119,23 @@ section {
   @media screen and (max-width: 766px) {
     padding-top: 16px;
   }
+  .image {
+    width: 85%;
+    height: auto;
+    // border: 8px solid;
+    border: solid blur(3px) rgba(#000, 0.03);
+    box-shadow: 2px 2px 5px rgba(#000, 0.2), 2px 2px 17px rgba(#000, 0.35),
+      2px 2px 25px rgba(#000, 0.5);
+    margin: 16px auto 16px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    @media screen and (max-width: 766px) {
+      width: 100%;
+    }
+  }
   position: relative;
   // &::before {
   //   content: "";
@@ -495,7 +512,10 @@ section {
 .flip-books {
   .book {
     display: flex;
+    // border: 10px solid #733406;
+    border: 10px solid #fff;
     position: relative;
+    border-radius: 25px;
     z-index: 20;
     // box-shadow: 3px 0px 6px #3b2f2f;
   }
@@ -504,7 +524,7 @@ section {
     position: absolute;
     display: none;
     height: 590px;
-    width: 1028px;
+    width: 100%;
     left: -40px;
     z-index: 1;
     top: -46px;
@@ -533,7 +553,12 @@ section {
     height: 520px;
     position: relative;
     border-radius: 16px 0 0 16px;
-    box-shadow: 3px 0px 4px #fff;
+    // box-shadow: 3px 0px 4px #fff;
+    // border: 6px solid white;
+    &::after {
+      content: "";
+      box-shadow: inset -12px 0px 4px -5px white;
+    }
     .btn-modal {
       z-index: 0;
     }
@@ -578,6 +603,7 @@ section {
     display: block;
     position: relative;
     perspective: 1500px;
+    // border: 5px solid white;
     @media screen and (max-width: 766px) {
       height: 400px;
     }
@@ -646,6 +672,16 @@ section {
       height: auto;
       z-index: 2;
       opacity: 0.8;
+      &::after {
+        content: "";
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 120px;
+        background: linear-gradient(to right, transparent, gray);
+        border-radius: 0 16px 16px 0;
+      }
       @media screen and (max-width: $max) {
         width: auto;
       }
@@ -659,7 +695,7 @@ section {
     &__title {
       // background: white;
       padding: 16px 16px 0;
-      position: fixed;
+      // position: fixed;
       right: 0;
       left: 0;
       border-radius: 0 16px 0 0;
@@ -681,12 +717,12 @@ section {
       }
     }
     ul {
-      margin: 80px 0 0;
+      // margin: 80px 0 0;
       padding: 0 16px;
       position: relative;
       z-index: 40;
       @media screen and (max-width: 766px) {
-        margin: 90px 0 0;
+        // margin: 90px 0 0;
         padding: 0 8px;
       }
       li {
@@ -700,11 +736,23 @@ section {
         // }
       }
     }
+
+    // &:after {
+    //   content: "";
+    //   position: absolute;
+    //   right: 0;
+    //   top: 0;
+    //   bottom: 0;
+    //   width: 100px;
+    //   background: red;
+    //   // z-index: 99;
+    // }
   }
 
   .back {
     position: absolute;
-    box-shadow: 3px 0px 4px #fff;
+    // box-shadow: 3px 0px 4px #fff;
+    // border: 6px solid white;
     width: 100%;
     height: 100%;
     top: 0;
@@ -713,7 +761,22 @@ section {
     z-index: 99;
     transform: rotateY(180deg);
     backface-visibility: hidden;
-    background-color: #733406;
+    // background-color: #733406;
+    background-image: url("../img/indonesia.webp");
+    // &::before {
+    //   content: "";
+    //   background-image: url("../img/indonesia.jpg");
+    // }
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      border-radius: 16px 0 0 16px;
+      width: 100px;
+      background: linear-gradient(to left, transparent, black);
+    }
     &::after {
       content: "";
       position: absolute;
@@ -721,8 +784,10 @@ section {
       z-index: 1;
       right: 0;
       left: 0;
-      height: 150px;
-      background: linear-gradient(to top, black, transparent);
+      top: 0;
+      box-shadow: inset -12px 0px 4px -5px white;
+      // height: 150px;
+      background: linear-gradient(to top, black 15%, transparent);
       border-radius: 0 0 0 16px;
     }
     img {
@@ -737,7 +802,7 @@ section {
     position: fixed;
     bottom: 4px;
     right: 13px;
-    z-index: 13;
+    z-index: 44;
     cursor: pointer;
     color: #000;
     @media screen and (max-width: 766px) {
@@ -763,7 +828,7 @@ section {
     right: 13px;
     cursor: pointer;
     color: #fff;
-    z-index: 20;
+    z-index: 50;
     @media screen and (max-width: 766px) {
       bottom: -10px;
       right: 13px;
@@ -1134,12 +1199,17 @@ body {
 #firstletter {
   position: relative;
   z-index: 20;
+  p {
+    position: relative;
+    z-index: 20;
+  }
   .helping {
     position: absolute;
     bottom: -62px;
-    right: -182px;
+    right: -100px;
     width: 520px;
-    opacity: 0.2;
+    z-index: 1;
+    opacity: 0.05;
     filter: grayscale(100%);
     @media screen and (max-width: 766px) {
       width: auto;
@@ -1154,9 +1224,9 @@ body {
   .helping2 {
     position: absolute;
     top: -100px;
-    left: -152px;
+    left: -192px;
     opacity: 0.2;
-    filter: grayscale(100%);
+    // filter: grayscale(100%);
     width: 250px;
     @media screen and (max-width: $max) {
       width: 240px;
@@ -1167,5 +1237,14 @@ body {
       width: 100%;
       height: 100%;
     }
+  }
+}
+
+.width-buku {
+  width: 800px;
+  margin: 0 auto;
+  display: block;
+  @media screen and (max-width: $max) {
+    width: auto;
   }
 }
