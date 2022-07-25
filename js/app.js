@@ -315,6 +315,14 @@ $.ajax({
 $.ajax({
   url: "js/book.json",
   type: "GET",
+  beforeSend: function () {
+    $(".loader_ajax").show();
+    // $(".thumbs").hide();
+  },
+  complete: function () {
+    $(".loader_ajax").hide();
+    // $(".thumbs").show();
+  },
   success: (response) => {
     // console.log(response);
     var a;
