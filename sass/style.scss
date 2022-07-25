@@ -234,14 +234,16 @@ section {
   margin: 0 auto;
   font-size: 80px;
   color: white;
-  animation: neon 5s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+  // animation: neon 5s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
   @media screen and (max-width: 766px) {
     width: auto;
     padding: 32px 0;
   }
   h1 {
-    font-family: "Montserrat";
-    font-weight: 700;
+    font-family: "Sedgwick Ave";
+    // font-family: "Montserrat";
+    // font-weight: 700;
+    font-size: 50px;
     @media screen and (max-width: 766px) {
       font-size: 32px;
     }
