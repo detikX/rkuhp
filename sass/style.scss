@@ -513,7 +513,11 @@ section {
   .book {
     display: flex;
     // border: 10px solid #733406;
-    border: 10px solid #fff;
+    // border: 10px solid #fff;
+    box-shadow: rgb(255 255 255 / 35%) 2.5639px -0.1212px 25px;
+    // box-shadow: 1px 1px 0px 0px #a7bdc7, 2px 2px 0px 0px #a7bdc7,
+    //   3px 3px 0px 0px #a7bdc7, 4px 4px 0px 0px #a7bdc7, 5px 5px 0px 0px #a7bdc7,
+    //   6px 6px 0px 0px #a7bdc7, 7px 7px 0px 0px #a7bdc7, 8px 8px 0px 0px #a7bdc7;
     position: relative;
     border-radius: 25px;
     z-index: 20;
@@ -557,7 +561,13 @@ section {
     // border: 6px solid white;
     &::after {
       content: "";
-      box-shadow: inset -12px 0px 4px -5px white;
+      // background: linear-gradient(to left, transparent, #000);
+      position: absolute;
+      left: 0;
+      top: 0;
+      border-radius: 16px 0 0 16px;
+      bottom: 0;
+      // width: 10px;
     }
     .btn-modal {
       z-index: 0;
@@ -681,6 +691,9 @@ section {
         width: 120px;
         background: linear-gradient(to right, transparent, gray);
         border-radius: 0 16px 16px 0;
+        @media screen and (max-width: 766px) {
+          width: 86px;
+        }
       }
       @media screen and (max-width: $max) {
         width: auto;
@@ -775,7 +788,10 @@ section {
       bottom: 0;
       border-radius: 16px 0 0 16px;
       width: 100px;
-      background: linear-gradient(to left, transparent, black);
+      // background: linear-gradient(to left, transparent, #bbb);
+      @media screen and (max-width: 766px) {
+        width: 20px;
+      }
     }
     &::after {
       content: "";
