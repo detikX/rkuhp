@@ -416,14 +416,17 @@ section {
       margin: 24px 12px;
     }
     h2 {
-      font-size: 32px;
+      font-size: 24px;
       margin: 0;
       position: absolute;
       opacity: 0.2;
-      top: 30px;
+      top: 50px;
       font-weight: bold;
       right: 10px;
       transition: all 0.3s ease-in-out;
+      @media screen and (max-width: 766px) {
+        font-size: 18px;
+      }
     }
     h3 {
       font-size: 24px;
@@ -472,7 +475,7 @@ section {
         opacity: 1;
       }
       h2 {
-        top: 16px;
+        top: 30px;
         opacity: 0.6;
       }
     }
