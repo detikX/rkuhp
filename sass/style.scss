@@ -1215,10 +1215,15 @@ body {
     box-shadow: none !important;
   }
   .modal-content {
-    background-color: #000000;
-    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    // background-color: #000000;
+    // background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    background: radial-gradient(
+      circle at 10% 20%,
+      rgb(39, 40, 41) 0%,
+      #29323c
+    ) !important;
     color: white;
-    box-shadow: rgb(64 72 191 / 30%) 4px 4px 102px;
+    // box-shadow: rgb(64 72 191 / 30%) 4px 4px 102px;
     .modal-body {
       padding: 24px 16px;
     }
