@@ -395,7 +395,7 @@ section {
       margin: 24px 12px;
     }
     h2 {
-      font-size: 42px;
+      font-size: 32px;
       margin: 0;
       position: absolute;
       opacity: 0.2;
@@ -511,12 +511,18 @@ section {
 }
 
 // flip books 3d
+.shadow_ {
+  box-shadow: rgb(255 255 255 / 35%) 2.5639px -0.1212px 25px;
+}
+.no-shadow {
+  box-shadow: none;
+}
 .flip-books {
   .book {
     display: flex;
     // border: 10px solid #733406;
     // border: 10px solid #fff;
-    box-shadow: rgb(255 255 255 / 35%) 2.5639px -0.1212px 25px;
+    // box-shadow: rgb(255 255 255 / 35%) 2.5639px -0.1212px 25px;
     // box-shadow: 1px 1px 0px 0px #a7bdc7, 2px 2px 0px 0px #a7bdc7,
     //   3px 3px 0px 0px #a7bdc7, 4px 4px 0px 0px #a7bdc7, 5px 5px 0px 0px #a7bdc7,
     //   6px 6px 0px 0px #a7bdc7, 7px 7px 0px 0px #a7bdc7, 8px 8px 0px 0px #a7bdc7;
@@ -559,7 +565,8 @@ section {
     height: 520px;
     position: relative;
     border-radius: 16px 0 0 16px;
-    // box-shadow: 3px 0px 4px #fff;
+    box-shadow: -5px 2px 8px rgb(255 255 255 / 35%);
+
     // border: 6px solid white;
     &::after {
       content: "";
@@ -634,6 +641,16 @@ section {
     transform: rotateY(0deg);
     transition: 0.5s;
     color: #000;
+    &::after {
+      content: "";
+      position: absolute;
+      right: 1px;
+      border-radius: 0 16px 16px 0;
+      top: 0;
+      width: 100%;
+      box-shadow: 3px 0px 5px rgb(255 255 255 / 35%);
+      bottom: 0;
+    }
   }
 
   // p {
@@ -664,6 +681,7 @@ section {
       z-index: 4;
       opacity: 0.2;
       @media screen and (max-width: $max) {
+        display: none;
         width: auto;
       }
       img {
@@ -728,6 +746,7 @@ section {
         z-index: 9;
         @media screen and (max-width: $max) {
           font-size: 19px;
+          margin-right: 16px;
         }
       }
     }
@@ -803,7 +822,7 @@ section {
       right: 0;
       left: 0;
       top: 0;
-      box-shadow: inset -12px 0px 4px -5px white;
+      // box-shadow: inset -12px 0px 4px -5px white;
       // height: 150px;
       background: linear-gradient(to top, black 15%, transparent);
       border-radius: 0 0 0 16px;
@@ -1264,5 +1283,35 @@ body {
   display: block;
   @media screen and (max-width: $max) {
     width: auto;
+  }
+}
+
+.halaman {
+  position: fixed;
+  right: 12px;
+  top: 8px;
+  z-index: 9;
+  font-weight: bold;
+  background: #fafafa;
+  padding: 0;
+  border-radius: 50%;
+  width: 24px;
+  text-align: center;
+  height: 24px;
+  @media screen and (max-width: 766px) {
+    right: 3px;
+  }
+}
+
+.modal-image {
+  width: 80%;
+  margin: 0 auto 16px;
+  text-align: center;
+  display: block;
+  height: auto;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 }

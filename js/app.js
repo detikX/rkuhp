@@ -290,6 +290,7 @@ $.ajax({
       var asal = response[a].asal;
       var usia = response[a].usia;
       var id_ = response[a].id;
+
       /*$(".nama-nama ul").append(`
       <li class="namasiswa" data-toggle="modal" data-target="#modalSiswa" data-id="${id_}" >
       ${name} (${usia} Tahun, ${asal})
@@ -313,13 +314,15 @@ $.ajax({
     }
     $(".namasiswa[data-target='#modalSiswa']").on("click", function (i, x) {
       var dataID = $(this).attr("data-id") - 1;
-      console.log(dataID);
-      console.log(response[dataID].modal);
+      // console.log(dataID);
+      // console.log(response[dataID].modal);
       var modal = response[dataID].modal;
+      var img = response[dataID].img;
       $("#modalSiswa").modal("show");
 
       $("#modalSiswa .modal-content").html(`
             <div class="modal-body">
+                <div class="modal-image"><img src="${img}" alt="${name}" title="${name}" loading="lazy" /></div>
                 <p class="font-stdbig">${modal}</p>
             </div>
         `);
@@ -355,7 +358,17 @@ $.ajax({
 
       var test = id == 12 ? "hidden" : "";
       var last = id == 12 ? "" : "hidden";
-      $(".flip-book").append(`
+
+      // var addclass = $(".book").addClass("shadow_");
+      // var remove = $(".book").addClass("none");
+
+      // var last_ = id == 12 ? remove : addclass;
+
+      // last_;
+
+      // $(".book").addClass(last_);
+
+      $(".flip-book ").append(`
         <div class="flip" id="p${id}">
           <div class="back">
             <h2 class="rkuhp ${last}">Draf RKUHP</h2>
@@ -371,6 +384,7 @@ $.ajax({
             <label for="c${id}" class="back-btn"><i class="fa fa-angle-double-left" aria-hidden="true"></i><div>Kembali</div></label>
           </div>
           <div class="front ${color}">
+            <div class="halaman">${id}</div>
             <div class="help-front"><img src="img/palu-help.png" alt="palu" title="palu"/></div>
             <div class="help-front2"><img src="img/kertas.webp" alt="palu" title="palu"/></div>
             <div class="front__title ${color}">
@@ -387,6 +401,7 @@ $.ajax({
         </div>
     `);
     }
+
     $("#modalDetail .modal-body").html(
       "<p class='font-stdbig'>Pasal ini tidak memiliki kekuatan hukum mengikat. Mahkamah Konstitusi melalui putusan Nomor 013-022/puu-iv/2006 pernah membatalkan pasal ini lantaran dianggap merupakan warisan masa kolonial. Berpotensi menjadi pasal karet dan mengekang kebebasan berpendapat.</p>"
     );
