@@ -173,7 +173,7 @@ section {
       /* bottom: 0; */
       position: absolute;
       bottom: initial;
-      top: 88px;
+      top: 100px;
     }
     img {
       width: 100%;
@@ -1251,7 +1251,8 @@ body {
     width: 30%;
     text-align: left;
     padding: 4px 0;
-    background: linear-gradient(to left, #3e5151, #decba4);
+    background: linear-gradient(to left, #3e5151, #777777);
+    // background: linear-gradient(to left, rgb(233, 181, 181), #decba4);
     height: auto;
     box-shadow: 0 3px 6px #000;
     cursor: pointer;
