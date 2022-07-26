@@ -1328,15 +1328,20 @@ body {
 }
 
 .modal-image {
-  width: 80%;
+  // width: 80%;
+  width: 175px;
+  height: 175px;
+  border: 10px solid white;
+  border-radius: 50%;
   margin: 0 auto 4px;
   text-align: center;
   display: block;
-  height: auto;
+  // height: auto;
   img {
     width: 100%;
+    border-radius: 50%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
   }
 }
 
