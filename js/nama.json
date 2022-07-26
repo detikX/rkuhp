@@ -5,7 +5,8 @@
     "usia": 19,
     "asal": "Jakarta",
     "modal": "Ditemukan terkapar di sebuah trotoar jalan sekitar kawasan Slipi, Jakarta Barat, sekitar pukul 01.30 WIB, pada 26 September 2019. Wajah dan matanya penuh lebam serta tulang kepalanya patah. 10 Hari kemudian, Akbar meninggal.",
-    "img": "https://akcdn.detik.net.id/community/media/visual/2019/10/11/91d5a6da-8322-4135-9470-c6a6d3874915.jpeg"
+    "img": "img/korban/akbar.jpg",
+    "sumber": "Istimewa"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "usia": 23,
     "asal": "Jakarta",
     "modal": "Meninggal pada pukul 05.59 WIB, 26 September 2019. Polisi mengklaim Maulana meninggal akibat kehabisan napas lantaran asmanya kambuh. Tapi keluarga menemukan lebam di sekujur tubuh Maulana serta pendarahan dari bagian hidung dan telinga.",
-    "img": "https://akcdn.detik.net.id/community/media/visual/2019/10/04/6457aa7c-fffc-48be-8003-e50ec691bb01_169.jpeg?w=700&q=90"
+    "img": "img/korban/maulana.jpg",
+    "sumber": "Istimewa"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "usia": 15,
     "asal": "Jakarta",
     "modal": "Bagus Putra Mahendra tertabrak truk saat perjalanan ke gedung MPR/DPR untuk ikut demo menolak pengesahan RKUHP. Siswa kelas XI SMA Aljihad, Jakarta Utara, itu kecelakaan akibat dikejar polisi yang menghadang pelajar ke DPR. Tapi polisi membantah dengan menyebut penyebab meninggalnya Bagus murni kecelakaan.",
-    "img": "https://akcdn.detik.net.id/community/media/visual/2019/10/20/8690e02a-6601-4252-baa9-6c453fb9c9b7_43.jpeg?w=700&q=90"
+    "img": "img/korban/bagus.jpg",
+    "sumber": "Tribun"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "usia": 21,
     "asal": "Kendari",
     "modal": "Mahasiswa Halu Oleo, Kendari, ini tewas setelah demonstrasi mahasiswa yang berujung ricuh di depan gedung DPRD Sulawesi Tenggara, Kamis, 26 September 2019. Dokter Rumah Sakit Dr Ismoyo, yang sempat menanganinya, menyebut ada luka tembak sedalam 10 sentimeter dengan lebar 5 sentimeter di dada Randy.",
-    "img": "img/korban/la-randy.jpg"
+    "img": "img/korban/la-randy.jpg",
+    "sumber": "Istimewa"
   },
   {
     "id": 5,
@@ -37,6 +41,7 @@
     "usia": 19,
     "asal": "Kendari",
     "modal": "Yusuf Kardawi sempat terjatuh dan dipukuli aparat saat berdemo di gedung DPRD Sulawesi Tenggara pada 26 September 2019. Saat dalam posisi tidak berdaya itulah Yusuf diduga ditembak oleh seorang polisi berpakaian preman.",
-    "img": "img/korban/yusuf.jpg"
+    "img": "img/korban/yusuf.jpg",
+    "sumber": "Istimewa"
   }
 ]

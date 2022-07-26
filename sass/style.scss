@@ -111,6 +111,8 @@ section {
   p,
   li {
     font-size: 18px;
+    // position: relative;
+    // z-index: 30;
     color: #b7b7b7;
     @media screen and (max-width: 766px) {
       font-size: 18px;
@@ -118,6 +120,23 @@ section {
   }
   @media screen and (max-width: 766px) {
     padding-top: 16px;
+  }
+  .image_ {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 480px;
+    opacity: 0.1;
+    display: none;
+    filter: grayscale(100%);
+    height: auto;
+    transform: translate(-50%, 35%);
+    z-index: 1;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
   }
   .image {
     width: 85%;
@@ -241,9 +260,11 @@ section {
   }
   h1 {
     font-family: "Sedgwick Ave";
-    // font-family: "Montserrat";
-    // font-weight: 700;
     font-size: 50px;
+    background: -webkit-linear-gradient(red, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
     @media screen and (max-width: 766px) {
       font-size: 32px;
     }
@@ -1305,7 +1326,7 @@ body {
 
 .modal-image {
   width: 80%;
-  margin: 0 auto 16px;
+  margin: 0 auto 4px;
   text-align: center;
   display: block;
   height: auto;
@@ -1314,4 +1335,11 @@ body {
     height: 100%;
     object-fit: contain;
   }
+}
+
+.sumber {
+  font-size: 12px;
+  margin: 8px 0;
+  text-align: center;
+  color: #cfd8dc;
 }
