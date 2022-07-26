@@ -3,6 +3,13 @@ $max: 766px;
 $primary: #262a2b;
 $orange: #f7941f;
 
+@font-face {
+  font-family: "levi";
+  src: url("../fonts/LEVIBRUSH.woff2");
+  src: local("../fonts/LEVIBRUSH.woff2");
+  src: url("../fonts/LEVIBRUSH.woff2") format("woff2");
+}
+
 section {
   // background: #b0ffe3;
   background: $primary;
@@ -413,7 +420,8 @@ section {
     transform: translate(-50%, 50%);
   }
   h1 {
-    font-family: "Sedgwick Ave";
+    // font-family: "Sedgwick Ave";
+    font-family: "levi";
     font-size: 50px;
     // color: #000;
     background: -webkit-linear-gradient(rgb(233, 73, 73), white);
@@ -421,7 +429,7 @@ section {
     -webkit-text-fill-color: transparent;
     font-weight: bold;
     @media screen and (max-width: 766px) {
-      font-size: 32px;
+      font-size: 26px;
     }
   }
 }
