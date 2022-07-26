@@ -91,7 +91,7 @@ section {
   // padding: 0;
   z-index: 75;
   @media screen and (max-width: 766px) {
-    height: 40vh;
+    height: 42vh;
   }
   &__bg {
     // opacity: 0.9;
@@ -101,6 +101,7 @@ section {
   &-wow {
     position: relative;
     height: 100vh;
+    z-index: 97;
     .star {
       position: absolute;
       top: 0;
@@ -114,7 +115,7 @@ section {
       left: 0;
       top: -30px;
       bottom: 0;
-      opacity: 0.5;
+      opacity: 0.3;
       right: 0;
       z-index: 2;
       width: 100%;
@@ -137,10 +138,10 @@ section {
       transform: translate(50%, 0%);
       @media screen and (max-width: 766px) {
         bottom: initial;
-        top: 20%;
+        top: 25%;
         width: 200px;
         height: 200px;
-        transform: translate(30%, -60%);
+        transform: translate(25%, -60%);
       }
       &.one {
         left: 5%;
@@ -161,17 +162,36 @@ section {
       position: absolute;
       bottom: 0;
       z-index: 5;
-      display: none;
+      // display: none;
       transform: translate(-50%, 0%);
-      // width: 100%;
+      width: 100%;
       height: 300px;
       filter: grayscale(100%);
       left: 50%;
+      @media screen and (max-width: 766px) {
+        // position: absolute;
+        bottom: 45%;
+        // z-index: 5;
+        transform: translate(-50%, -150%);
+        // width: 100%;
+        height: 100px;
+        // filter: grayscale(100%);
+        // left: 50%;
+      }
       img {
         width: 100%;
         height: 100%;
         object-fit: cover;
       }
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: linear-gradient(to top, transparent, $primary);
+      height: 100px;
     }
   }
 
@@ -409,24 +429,25 @@ section {
   font-size: 80px;
   color: white;
   position: absolute;
-  top: -80px;
+  top: -60px;
   left: 50%;
   transform: translate(-50%, 0);
-  z-index: 89;
+  z-index: 109;
   // animation: neon 5s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
   @media screen and (max-width: 766px) {
-    width: 310px;
-    padding: 32px 0;
+    width: 320px;
+    padding: 0;
     transform: translate(-50%, 50%);
   }
   h1 {
-    // font-family: "Sedgwick Ave";
-    font-family: "levi";
-    font-size: 50px;
-    // color: #000;
-    background: -webkit-linear-gradient(rgb(233, 73, 73), white);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-family: "Montserrat";
+    // font-family: "levi";
+    font-size: 40px;
+    color: #fff;
+    // text-shadow: 2px 2px #ff0000;
+    // background: -webkit-linear-gradient(rgb(201, 39, 39), white);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
     font-weight: bold;
     @media screen and (max-width: 766px) {
       font-size: 26px;
@@ -1198,6 +1219,9 @@ section {
     // animation: bounce 0.4s infinite alternate;
     // -webkit-animation: bounce 0.4s infinite alternate;
     // border: 1px solid;
+    @media screen and (max-width: 766px) {
+      display: none;
+    }
   }
 }
 
@@ -1205,6 +1229,9 @@ section {
   position: relative;
   width: 24px;
   height: 24px;
+  @media screen and (max-width: 766px) {
+    display: none;
+  }
 }
 
 .chevron {
@@ -1436,6 +1463,7 @@ body {
 #firstletter {
   position: relative;
   z-index: 80;
+  padding: 42px 0 32px;
   p {
     position: relative;
     z-index: 20;
@@ -1460,7 +1488,7 @@ body {
   }
   .helping2 {
     position: absolute;
-    top: -100px;
+    top: -10px;
     left: -192px;
     opacity: 0.2;
     filter: grayscale(100%);
@@ -1468,7 +1496,7 @@ body {
     @media screen and (max-width: $max) {
       width: 240px;
       left: -48px;
-      top: -50px;
+      top: -10px;
     }
     img {
       width: 100%;
@@ -1492,7 +1520,7 @@ body {
   top: 8px;
   z-index: 9;
   font-weight: bold;
-  background: #fafafa;
+  background: silver;
   padding: 0;
   border-radius: 50%;
   width: 24px;
