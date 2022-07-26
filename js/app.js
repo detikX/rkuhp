@@ -318,11 +318,12 @@ $.ajax({
       // console.log(response[dataID].modal);
       var modal = response[dataID].modal;
       var img = response[dataID].img;
+      var namanya = response[dataID].nama;
       $("#modalSiswa").modal("show");
 
       $("#modalSiswa .modal-content").html(`
             <div class="modal-body">
-                <div class="modal-image"><img src="${img}" alt="${name}" title="${name}" loading="lazy" /></div>
+                <div class="modal-image"><img src="${img}" alt="${namanya}" title="${namanya}" loading="lazy" /></div>
                 <p class="font-stdbig">${modal}</p>
             </div>
         `);
