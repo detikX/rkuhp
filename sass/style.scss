@@ -120,14 +120,15 @@ section {
     .dpr {
       position: absolute;
       left: 0;
-      top: -30px;
+      top: 0px;
       bottom: 0;
       opacity: 0.3;
       right: 0;
       z-index: 2;
       width: 100%;
       @media screen and (max-width: 766px) {
-        top: 60px;
+        // top: 60px;
+        transform: translate(0, 20%);
       }
       img {
         width: 100%;
@@ -141,6 +142,7 @@ section {
       z-index: 3;
       height: 420px;
       width: 420px;
+      opacity: 0.7;
       left: 30%;
       filter: grayscale(20%);
       transform: translate(50%, 0%);
@@ -182,7 +184,7 @@ section {
         // z-index: 5;
         transform: translate(-50%, -150%);
         // width: 100%;
-        height: 123px;
+        height: 100px;
         width: 100%;
         object-fit: cover;
         // filter: grayscale(100%);
@@ -435,9 +437,12 @@ section {
 .typing {
   // margin: 70px auto;
   text-align: center;
-  padding: 100px 0;
+  // padding: 100px 0 0;
+  border: 1px solid;
+  padding: 8px;
+  backdrop-filter: blur(12px);
   width: 640px;
-  margin: 0 auto;
+  margin: 100px auto;
   font-size: 80px;
   color: white;
   position: absolute;
@@ -446,20 +451,42 @@ section {
   transform: translate(-50%, 0);
   z-index: 109;
   // animation: neon 5s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+  // &::before {
+  //   content: "";
+  //   position: absolute;
+  //   width: 90px;
+  //   height: 2px;
+  //   background: silver;
+  //   left: -94px;
+  //   bottom: 50px;
+  // }
+  // &::after {
+  //   content: "";
+  //   position: absolute;
+  //   width: 90px;
+  //   height: 2px;
+  //   background: silver;
+  //   right: -94px;
+  //   bottom: 50px;
+  // }
   @media screen and (max-width: 766px) {
     width: 320px;
     padding: 0;
-    transform: translate(-50%, 160%);
+    margin: 0px auto;
+    top: 16px;
+    transform: translate(-50%, 0);
+    position: absolute;
+    left: 50%;
   }
   h1 {
-    font-family: "Aleo";
+    font-family: "Merriweather";
     // font-family: "levi";
     font-size: 45px;
-    color: #fff;
-    text-shadow: 2px 2px gray;
-    // background: -webkit-linear-gradient(rgb(201, 39, 39), white);
-    // -webkit-background-clip: text;
-    // -webkit-text-fill-color: transparent;
+    // color: #fff;
+    // text-shadow: 2px 2px gray;
+    background: -webkit-linear-gradient(silver, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: bold;
     @media screen and (max-width: 766px) {
       font-size: 26px;
