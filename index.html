@@ -164,7 +164,7 @@
     />
   </head>
   <body>
-    <!-- <div class="preloader">
+    <div class="preloader">
       <div class="waiting">
         <img
           src="img/logo-detikx.webp"
@@ -174,16 +174,20 @@
           class="animate"
         />
       </div>
-    </div> -->
+    </div>
 
     <main>
       <section class="banner">
-        <!-- <img
-          src="https://news.detik.com/x/detail/investigasi/20220704/Lempar-Izin-Holywings,-Sembunyi-Tangan/images/holwings--qz63u2.webp"
-          alt="UMP DKI Jakarta"
-          title="UMP DKI Jakarta"
-          loading="lazy"
-        /> -->
+        <div class="logo-detik">
+          <a href="https://news.detik.com/x/">
+            <img
+              src="img/logo-detikx.webp"
+              alt="logo detikx"
+              title="logo detikx"
+              pinger-seen="true"
+            />
+          </a>
+        </div>
         <div class="banner-wow">
           <!-- <img src="img/banner/stars.png" alt="" class="star" /> -->
           <img src="img/dpr.webp" alt="" class="dpr" id="dpr" />
@@ -414,6 +418,13 @@
             >
               <img src="img/ketok-palu.jpg" alt="" />
             </div>
+            <div
+              class="sumber wow animate__animated animate__fadeIn"
+              data-wow-delay=".5s"
+            >
+              Sumber: Istimewa
+            </div>
+            <br />
             <div class="to-top">
               <p
                 class="wow animate__animated animate__fadeIn"
@@ -513,7 +524,7 @@
         <div class="container-fluid">
           <div class="container">
             <div class="row">
-              <div class="col-md-8 offset-md-2">
+              <div class="col-md-10 offset-md-1">
                 <div
                   class="row wow animate__animated animate__fadeIn"
                   data-wow-delay="0.5s"
@@ -587,7 +598,6 @@
       </div>
     </div>
 
-    <!-- modal person -->
     <div
       class="modal fade"
       id="modalSiswa"
@@ -617,31 +627,6 @@
     <script src="js/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/app.js"></script>
-
-    <!-- <script>
-      (function () {
-        (f = "dc"), (w = window), (d = document);
-        w["DTKCObj"] = { ts: Date.now(), args: arguments };
-        w[f] =
-          w[f] ||
-          function () {
-            (w[f].q = w[f].q || []).push(arguments);
-          };
-        var dc = d.createElement("script"),
-          n = new Date();
-        dc.async = 1;
-        dc.src =
-          "https://cdn.detik.net.id/libs/dc/v1/embed.js?" +
-          n.getFullYear() +
-          n.getMonth() +
-          "01";
-        (
-          d.getElementsByTagName("head")[0] || d.getElementsByTagName("body")[0]
-        ).appendChild(dc);
-      })({
-        appId: 3,
-      });
-    </script> -->
 
     <!-- Start Alexa -->
   </body>

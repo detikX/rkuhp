@@ -148,7 +148,7 @@ section {
       transform: translate(50%, 0%);
       @media screen and (max-width: 766px) {
         bottom: initial;
-        top: 25%;
+        top: 29%;
         width: 200px;
         height: 200px;
         transform: translate(25%, -60%);
@@ -181,7 +181,7 @@ section {
       left: 50%;
       @media screen and (max-width: 766px) {
         // position: absolute;
-        bottom: 45% !important;
+        bottom: 38% !important;
         // z-index: 5;
         transform: translate(-50%, -150%);
         // width: 100%;
@@ -424,8 +424,9 @@ section {
   width: 90px;
   @media screen and (max-width: 766px) {
     top: 12px;
-    left: 45%;
+    left: 50%;
     width: 80px;
+    transform: translate(-50%, 0px);
   }
 }
 .footer {
@@ -474,7 +475,7 @@ section {
     width: 320px;
     padding: 0;
     margin: 0px auto;
-    top: 16px;
+    top: 48px;
     transform: translate(-50%, 0);
     position: absolute;
     left: 50%;
@@ -656,6 +657,7 @@ section {
       transition: all 0.3s ease-in-out;
       @media screen and (max-width: 766px) {
         font-size: 18px;
+        top: 50px;
       }
     }
     h3 {
@@ -669,6 +671,9 @@ section {
       // line-height: 18px;
       color: #b7b7b7;
       margin-top: 5px;
+      @media screen and(max-width:766px) {
+        font-size: 16px;
+      }
     }
     button {
       background: transparent;
@@ -705,8 +710,11 @@ section {
         opacity: 1;
       }
       h2 {
-        top: 30px;
+        top: 20px;
         opacity: 0.6;
+        @media screen and (max-width: 766px) {
+          top: 35px;
+        }
       }
     }
     &:before {
@@ -890,6 +898,7 @@ section {
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 16px;
     transform-origin: left;
     transform-style: preserve-3d;
     transform: rotateY(0deg);
@@ -1401,12 +1410,14 @@ body {
       }
     }
     .close {
+      font-family: "Aleo";
       i {
         color: white;
       }
     }
     p {
       font-size: 18px;
+      font-family: "Aleo";
     }
   }
 }
@@ -1594,4 +1605,8 @@ body {
   margin: 8px 0;
   text-align: center;
   color: #cfd8dc;
+}
+
+#logo {
+  display: none;
 }

@@ -108,6 +108,23 @@
     "modal": "Pasal ini berpotensi memicu penyerangan terhadap minoritas agama tertentu. Sebab, delik penodaan agama ini tidak berorientasi pada perlindungan kebebasan beragama bagi individu untuk melaksanakan kepercayaannya."
   },
   {
+    "id": 8,
+    "judul": "Pidana Mati",
+    "coloring": "bg-purple",
+    "content": [
+      {
+        "pasal": "Pasal 67",
+        "text": "Pidana yang bersifat khusus sebagaimana dimaksud dalam Pasal 64 huruf c merupakan pidana mati yang selalu diancamkan secara alternatif."
+      },
+      {
+        "pasal": "Pasal 98",
+        "text": "Pidana mati diancamkan secara alternatif sebagai upaya terakhir untuk mencegah dilakukannya tindak pidana dan mengayomi masyarakat."
+      }
+    ],
+    "image": "img/8-aborsi.webp",
+    "modal": "Aturan terkait pidana mati juga tertuang dalam Pasal 99, 100, 101, dan 102. Pasal-pasal ini dianggap kontroversial karena bertentangan dengan hak asasi manusia. Institute for Criminal Justice Reform (ICJR) menilai, pasal-pasal ini mestinya sudah dihapuskan. Indonesia, menurut ICJR, seharusnya sudah mengikuti peradaban di negara lain yang telah menghapus pidana tersebut."
+  },
+  {
     "id": 9,
     "judul": "Aborsi",
     "coloring": "bg-softred",
@@ -167,22 +184,5 @@
     ],
     "image": "img/12-pidanamati.webp",
     "modal": "Aturan terkait hewan ternak juga diatur dalam Pasal 279. Pasal-pasal ini berpotensi digunakan sebagian kalangan untuk mengkriminalisasi orang lain dengan dalih-dalih yang tidak masuk akal dan sulit dibuktikan."
-  },
-  {
-    "id": 8,
-    "judul": "Pidana Mati",
-    "coloring": "bg-purple",
-    "content": [
-      {
-        "pasal": "Pasal 67",
-        "text": "Pidana yang bersifat khusus sebagaimana dimaksud dalam Pasal 64 huruf c merupakan pidana mati yang selalu diancamkan secara alternatif."
-      },
-      {
-        "pasal": "Pasal 98",
-        "text": "Pidana mati diancamkan secara alternatif sebagai upaya terakhir untuk mencegah dilakukannya tindak pidana dan mengayomi masyarakat."
-      }
-    ],
-    "image": "img/8-aborsi.webp",
-    "modal": "Aturan terkait pidana mati juga tertuang dalam Pasal 99, 100, 101, dan 102. Pasal-pasal ini dianggap kontroversial karena bertentangan dengan hak asasi manusia. Institute for Criminal Justice Reform (ICJR) menilai, pasal-pasal ini mestinya sudah dihapuskan. Indonesia, menurut ICJR, seharusnya sudah mengikuti peradaban di negara lain yang telah menghapus pidana tersebut."
   }
 ]
