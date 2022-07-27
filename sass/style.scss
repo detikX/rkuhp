@@ -135,6 +135,7 @@ section {
       height: 420px;
       width: 420px;
       left: 30%;
+      filter: grayscale(20%);
       transform: translate(50%, 0%);
       @media screen and (max-width: 766px) {
         bottom: initial;
@@ -437,12 +438,12 @@ section {
   @media screen and (max-width: 766px) {
     width: 320px;
     padding: 0;
-    transform: translate(-50%, 100%);
+    transform: translate(-50%, 160%);
   }
   h1 {
-    font-family: "Montserrat";
+    font-family: "Aleo";
     // font-family: "levi";
-    font-size: 40px;
+    font-size: 45px;
     color: #fff;
     // text-shadow: 2px 2px #ff0000;
     // background: -webkit-linear-gradient(rgb(201, 39, 39), white);
