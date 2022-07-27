@@ -97,87 +97,87 @@ $(() => {
 //slick
 var test = screen.width < 768 ? 2 : 20;
 
-$(window)
-  .scroll(function () {
-    let o = $(window),
-      i = $("body"),
-      t = $(".section");
-    s = o.scrollTop() + o.height() / test;
-    // console.log("o.scrollTop()", o.scrollTop());
-    // console.log("o.height", o.height());
-    t.each(function () {
-      // console.log("top", $(this).position().top);
-      // console.log("s", s);
-      // console.log(
-      //   "$(this).position().top + $(this).height()",
-      //   $(this).position().top + $(this).height()
-      // );
-      $(this).position().top <= s &&
-        $(this).position().top + $(this).height() > s &&
-        i.removeClass(
-          $(".section").removeClass("active"),
-          $(this).addClass("active")
-        );
-    });
-  })
-  .scroll();
+// $(window)
+//   .scroll(function () {
+//     let o = $(window),
+//       i = $("body"),
+//       t = $(".section");
+//     s = o.scrollTop() + o.height() / test;
+//     // console.log("o.scrollTop()", o.scrollTop());
+//     // console.log("o.height", o.height());
+//     t.each(function () {
+//       // console.log("top", $(this).position().top);
+//       // console.log("s", s);
+//       // console.log(
+//       //   "$(this).position().top + $(this).height()",
+//       //   $(this).position().top + $(this).height()
+//       // );
+//       $(this).position().top <= s &&
+//         $(this).position().top + $(this).height() > s &&
+//         i.removeClass(
+//           $(".section").removeClass("active"),
+//           $(this).addClass("active")
+//         );
+//     });
+//   })
+//   .scroll();
 
-if (screen.width > 768) {
-  var lFollowX = 0,
-    lFollowY = 0,
-    x = 0,
-    y = 0,
-    friction = 1 / 30;
+// if (screen.width > 768) {
+//   var lFollowX = 0,
+//     lFollowY = 0,
+//     x = 0,
+//     y = 0,
+//     friction = 1 / 30;
 
-  function moveBackground() {
-    x += (lFollowX - x) * friction;
-    y += (lFollowY - y) * friction;
+//   function moveBackground() {
+//     x += (lFollowX - x) * friction;
+//     y += (lFollowY - y) * friction;
 
-    translate = "translate(" + y + "px, " + x + "px) scale(0.9)";
-    translatea = "translate(" + y + "px, " + x + "px) scale(0.9)";
+//     translate = "translate(" + y + "px, " + x + "px) scale(0.9)";
+//     translatea = "translate(" + y + "px, " + x + "px) scale(0.9)";
 
-    $(".cover__cloud").css({
-      "-webit-transform": translatea,
-      "-moz-transform": translatea,
-      transform: translatea,
-    });
+//     $(".cover__cloud").css({
+//       "-webit-transform": translatea,
+//       "-moz-transform": translatea,
+//       transform: translatea,
+//     });
 
-    window.requestAnimationFrame(moveBackground);
-  }
+//     window.requestAnimationFrame(moveBackground);
+//   }
 
-  $(window).on("mousemove click", function (e) {
-    var lMouseX = Math.max(
-      -100,
-      Math.min(100, $(window).width() / 2 - e.clientX)
-    );
-    var lMouseY = Math.max(
-      -100,
-      Math.min(100, $(window).height() / 2 - e.clientY)
-    );
-    lFollowX = (5 * lMouseY) / 100; // 100 : 12 = lMouxeX : lFollow
-    lFollowY = (40 * lMouseX) / 100;
-  });
+//   $(window).on("mousemove click", function (e) {
+//     var lMouseX = Math.max(
+//       -100,
+//       Math.min(100, $(window).width() / 2 - e.clientX)
+//     );
+//     var lMouseY = Math.max(
+//       -100,
+//       Math.min(100, $(window).height() / 2 - e.clientY)
+//     );
+//     lFollowX = (5 * lMouseY) / 100; // 100 : 12 = lMouxeX : lFollow
+//     lFollowY = (40 * lMouseX) / 100;
+//   });
 
-  moveBackground();
+//   moveBackground();
 
-  // sr.reveal(".align-left .credit__team", {
-  //   delay: 300,
-  //   origin: "right",
-  // });
-  // sr.reveal(".align-left .credit__member", {
-  //   delay: 450,
-  //   origin: "right",
-  // });
+// sr.reveal(".align-left .credit__team", {
+//   delay: 300,
+//   origin: "right",
+// });
+// sr.reveal(".align-left .credit__member", {
+//   delay: 450,
+//   origin: "right",
+// });
 
-  // sr.reveal(".align-right .credit__team", {
-  //   delay: 300,
-  //   origin: "left",
-  // });
-  // sr.reveal(".align-right .credit__member", {
-  //   delay: 450,
-  //   origin: "left",
-  // });
-}
+// sr.reveal(".align-right .credit__team", {
+//   delay: 300,
+//   origin: "left",
+// });
+// sr.reveal(".align-right .credit__member", {
+//   delay: 450,
+//   origin: "left",
+// });
+// }
 
 // setTimeout(() => {
 //   document.getElementById("audio").addEventListener("play", myFunction);
@@ -225,35 +225,35 @@ if (screen.width > 768) {
 // play.addEventListener("click", playVid);
 // pause.addEventListener("click", pauseVid);
 
-const pauseVar = "fa-pause-circle";
-const playVar = "fa-play-circle";
+// const pauseVar = "fa-pause-circle";
+// const playVar = "fa-play-circle";
 
-const btns = document.querySelectorAll(".all");
+// const btns = document.querySelectorAll(".all");
 
-function onChange(event) {
-  const buttonElement = event.currentTarget;
+// function onChange(event) {
+//   const buttonElement = event.currentTarget;
 
-  const isPlayButton = buttonElement.classList.contains(playVar);
+//   const isPlayButton = buttonElement.classList.contains(playVar);
 
-  if (isPlayButton) {
-    buttonElement.classList.remove(playVar);
-    buttonElement.classList.add(pauseVar);
-    $("#play-button").removeClass("animate__infinite");
-    $("#myAudio").get(0).play();
-  } else {
-    buttonElement.classList.remove(pauseVar);
-    buttonElement.classList.add(playVar);
-    $("#play-button").addClass("animate__infinite");
-    $("#myAudio").get(0).pause();
-  }
+//   if (isPlayButton) {
+//     buttonElement.classList.remove(playVar);
+//     buttonElement.classList.add(pauseVar);
+//     $("#play-button").removeClass("animate__infinite");
+//     $("#myAudio").get(0).play();
+//   } else {
+//     buttonElement.classList.remove(pauseVar);
+//     buttonElement.classList.add(playVar);
+//     $("#play-button").addClass("animate__infinite");
+//     $("#myAudio").get(0).pause();
+//   }
 
-  // You can also use .toggle function on classList as mentioned by the person in other answer
-}
+//   // You can also use .toggle function on classList as mentioned by the person in other answer
+// }
 
 // query selector all returns a list of nodes, therefore we need to iterate over it and attach an event listener to each button seperatly
-btns.forEach((btn) => {
-  btn.addEventListener("click", onChange);
-});
+// btns.forEach((btn) => {
+//   btn.addEventListener("click", onChange);
+// });
 // window.onscroll = function () {
 //   myFunction();
 // };
@@ -426,8 +426,27 @@ $.ajax({
 $(".chevron,.click-scroll,.ontop__scroll").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#firstletter").offset().top - 20,
+      scrollTop: $("#firstletter").offset().top + 5,
     },
     500
   );
+});
+
+let bg = document.getElementById("dpr");
+let moon = document.getElementById("one");
+let mountain = document.getElementById("two");
+let road = document.getElementById("demo");
+
+window.addEventListener("scroll", function () {
+  var value = window.scrollY;
+  // console.log("value", value);
+  bg.style.top = value * 0.5 + "px";
+  // moon.style.bottom = -value + 10 + "%";
+  // moon.style.left = -value + 5 + "%";
+  // moon.style.transform = scale(1.2);
+  // mountain.style.bottom = -value + 10 + "%";
+  road.style.bottom = value * 0.05 + "px";
+  // console.log(".bg.style.top", bg.style.top);
+  // console.log("moon.style.top", moon.style.top);
+  // text.style.top = value * 1 + "px";
 });
