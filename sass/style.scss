@@ -174,8 +174,9 @@ section {
       z-index: 5;
       // display: none;
       transform: translate(-50%, 0%);
-      width: 100%;
+      width: 80%;
       height: 300px;
+      // opacity: 0.9;
       filter: grayscale(100%);
       left: 50%;
       @media screen and (max-width: 766px) {
