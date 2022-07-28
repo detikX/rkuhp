@@ -388,11 +388,9 @@ $.ajax({
           </div>
           <div class="front ${color}">
             <div class="halaman">${id}</div>
-            <div class="help-front"><img src="img/palu-help.png" alt="palu" title="palu"/></div>
-            <div class="help-front2"><img src="img/kertas.webp" alt="palu" title="palu"/></div>
+
             <div class="front__title ${color}">
               <h2>${judul}</h2>
-              <div class="help-front2"><img src="img/kertas.webp" alt="palu" title="palu"/></div>
             </div>
 
             <ul>
